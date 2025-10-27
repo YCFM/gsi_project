@@ -57,6 +57,6 @@ if __name__ == "__main__":
     m2.set_grade(tp=8, exam=6)
 
     print("Module average:", m2.name, m2.calculate_average())
-    print
+    print("Module credits:", m2.name, m2.calculate_credits())
     print("Unit average:", u11.calculate_average())
     print("Unit credits:", u11.calculate_credits())
